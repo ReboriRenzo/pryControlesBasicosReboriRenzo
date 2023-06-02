@@ -1,6 +1,6 @@
 ﻿namespace pryControlesBasicosReboriRenzo
 {
-    partial class Form1
+    partial class frmControlesBasicos
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmControlesBasicos));
             this.txtTexto = new System.Windows.Forms.Label();
             this.optRojo = new System.Windows.Forms.RadioButton();
             this.optAzul = new System.Windows.Forms.RadioButton();
@@ -190,7 +190,7 @@
             this.lblElegir.Size = new System.Drawing.Size(0, 17);
             this.lblElegir.TabIndex = 8;
             // 
-            // Form1
+            // frmControlesBasicos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -207,7 +207,7 @@
             this.Font = new System.Drawing.Font("Yu Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "Form1";
+            this.Name = "frmControlesBasicos";
             this.Text = "Controles Basicos";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.mrcPartido.ResumeLayout(false);
